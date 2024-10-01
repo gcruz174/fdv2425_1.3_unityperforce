@@ -5,7 +5,7 @@ Nos conectamos al Perforce de la ULL y buscamos el depot FDV2425.
 
 ![img1](imgs/img1.png)
 
-Creamos un workspace y lo vinculamos al depot.
+Creamos un workspace y lo vinculamos al depot, asegurándonos de solo marcar FDV2425.
 
 ![img2](imgs/img2.png)
 
@@ -17,7 +17,7 @@ Clonamos el contenido del depot a nuestro workspace.
 
 3. Modificar el fichero presentacion.txt, agregando una frase que indique tu nombre y resuma tu experiencia en el programación de videojuegos 2D y 3D.
 
-Añadimos al fichero la siguiente línea: `Hola, soy Ginés Cruz Chávez y mi experiencia en programación de videojuegos consiste en un TFG sobre generación procedural 3D hecho en Godot, además de varios años de experiencia con el motor Unity.`.
+Hacemos checkout al fichero ejemploClase/presentacion.txt para modificarlo. Añadimos al fichero la siguiente línea: `Hola, soy Ginés Cruz Chávez y mi experiencia en programación de videojuegos consiste en un TFG sobre generación procedural 3D hecho en Godot, además de varios años de experiencia con el motor Unity.`. Lo añadimos al depot (Add) y Submit a los cambios.
 
 ![img4](imgs/img4.png)
 
@@ -37,6 +37,6 @@ Añadimos el proyecto al depot con nombre "Gines_alu0101431079".
 
 ![img7](imgs/img7.png)
 
-Añadimos los cambios y los subimos al depot.
+Añadimos los cambios (clic derecho en la carpeta, Mark for Add y luego Submit) y los subimos al depot.
 
 ![img7](imgs/img8.png)
